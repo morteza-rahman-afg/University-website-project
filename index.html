@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav" id="navbar">
+      <div class="box_logo">
+        <img src="img/logo.png" alt="LOGO" />
+      </div>
+      <ul class="box_links">
+        <li>
+          <a href="#" class="link after_link" data-page="home.html">Home</a>
+        </li>
+        <li>
+          <a href="#" class="link after_link" data-page="about.html">About</a>
+        </li>
+        <li>
+          <a href="#" class="link after_link" data-page="courses.html"
+            >Courses</a
+          >
+        </li>
+        <li>
+          <a href="#" class="link after_link" data-page="blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="#" class="link after_link" data-page="contact.html"
+            >Contact</a
+          >
+        </li>
+        <li class="d">
+          <svg
+            class="open_sidebar"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+        </li>
+      </ul>
+      <div class="Links_sidebar">
+        <ul class="box_links_sidebar">
+          <li><a href="#" class="link" data-page="home.html">Home</a></li>
+          <li><a href="#" class="link" data-page="about.html">About</a></li>
+          <li><a href="#" class="link" data-page="courses.html">Courses</a></li>
+          <li><a href="#" class="link" data-page="blog.html">Blog</a></li>
+          <li><a href="#" class="link" data-page="contact.html">Contact</a></li>
+        </ul>
+        <svg
+          class="clos_sidebar"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+    </nav>
+
+    <div id="loader"></div>
+    <main id="content">Loading...</main>
+    <script src="script.js"></script>
+  </body>
+</html>
