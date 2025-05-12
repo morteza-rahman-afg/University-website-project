@@ -19,12 +19,35 @@ a,
 button {
   cursor: pointer;
 }
+/*  */
+.display__flex {
+  display: flex;
+}
+/*  */
+.align_items_center {
+  align-items: center;
+}
+.align_items_flex-start {
+  align-items: flex-start;
+}
+.align_items_start {
+  align-items: start;
+}
+/*  */
+.justify-content_center {
+  justify-content: center;
+}
+.justify_content_space-between {
+  justify-content: space-between;
+}
+/*  */
+.flex_direction_column {
+  flex-direction: column;
+}
+/*  */
 .nav {
   width: 100%;
   height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 3rem;
   background: inherit;
   padding: 10px;
@@ -34,10 +57,6 @@ button {
   padding: 1rem 1.5rem;
   z-index: 100;
 }
-.box_logo {
-  display: flex;
-  align-items: center;
-}
 .box_logo img {
   width: 150px;
 }
@@ -45,15 +64,11 @@ button {
   opacity: 1;
 }
 .box_links {
-  display: flex;
-  align-items: center;
   gap: 2rem;
   list-style: none;
 }
 .link {
   position: relative;
-  display: flex;
-  flex-direction: column;
   font-size: 1rem;
   color: #fff;
   text-decoration: none;
@@ -81,9 +96,6 @@ button {
   right: 0;
   top: 0;
   background-color: #f4511e;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
   padding: 3rem 0rem 1rem 1rem;
   transform: translateX(180px);
   transition: transform 200ms ease-in;
@@ -92,9 +104,6 @@ button {
   transform: translateX(0px);
 }
 .box_links_sidebar {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
   list-style: none;
   gap: 2rem;
 }
@@ -148,10 +157,6 @@ button {
   background-size: cover;
   width: 100%;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 1.2rem;
 }
 .title_header_home {
@@ -210,18 +215,11 @@ button {
   width: 85%;
   height: 100vh;
   color: #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 6rem;
   margin: 0 auto;
 }
 .title_text_section_courses {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 0.5rem;
 }
 .title_text_section_courses h3 {
@@ -233,16 +231,9 @@ button {
 }
 .box_cart_section_courses {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 2rem;
 }
 .cart_section_courses {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   gap: 0.5rem;
   text-align: center;
   height: 180px;
@@ -267,18 +258,11 @@ button {
 .section_our_global {
   width: 100%;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 2rem;
   color: #444;
 }
 .title_text_section_our_global {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 0.5rem;
 }
 .title_text_section_our_global h3 {
@@ -289,28 +273,22 @@ button {
   font-size: 0.9rem;
 }
 .container_img_section_our_global {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 80%;
   gap: 2rem;
 }
 .box_img_section_our_global {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   position: relative;
 }
 .box_img_section_our_global img {
-  width: 300px;
+  width: 100%;
   height: 450px;
   object-fit: cover;
   border-radius: 15px;
 }
 .Photo_overlay {
   position: absolute;
-  width: 300px;
+  width: 100%;
   height: 450px;
   background-color: rgba(255, 0, 0, 0.5);
   color: #fff;
@@ -330,17 +308,8 @@ button {
   width: 85%;
   height: 100vh;
   color: #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 3rem;
   margin: 0 auto;
-}
-.title_text_section_Our_Facilities {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 .title_text_section_Our_Facilities h3 {
   font-weight: 900;
@@ -350,17 +319,10 @@ button {
   font-size: 0.8rem;
 }
 .container_cart_section_Our_Facilities {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 2rem;
   width: 100%;
 }
 .box_cart_section_Our_Facilities {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   text-align: left;
   gap: 1rem;
 }
@@ -371,9 +333,6 @@ button {
   border-radius: 15px;
 }
 .box_cart_section_Our_Facilities div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 0.5rem;
 }
 .box_cart_section_Our_Facilities h5 {
@@ -388,10 +347,6 @@ button {
   width: 100%;
   height: 100vh;
   color: #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 5rem;
 }
 .title_text_section_oue_student {
@@ -407,8 +362,6 @@ button {
 }
 .box_cart_user {
   width: 95%;
-  display: flex;
-  align-items: center;
   gap: 1rem;
 }
 .cart_user {
@@ -416,8 +369,6 @@ button {
   height: 200px;
   border-radius: 12px;
   background-color: #fce4ec;
-  display: flex;
-  align-items: flex-start;
   gap: 1rem;
   padding: 1.5rem;
   box-shadow: 0 0 15px #ffcdd2;
@@ -429,8 +380,6 @@ button {
   border-radius: 50%;
 }
 .box_Specifications {
-  display: flex;
-  flex-direction: column;
   gap: 0.5rem;
 }
 .box_Specifications img {
@@ -447,9 +396,6 @@ button {
 .section_entroll {
   width: 100%;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .box_entroll {
   background-image: linear-gradient(
@@ -464,10 +410,6 @@ button {
   width: 80%;
   height: 400px;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 1.5rem;
   border-radius: 15px;
 }
@@ -480,10 +422,6 @@ button {
   width: 100%;
   height: 60vh;
   color: #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   gap: 1rem;
 }
 .text_footer {
@@ -498,6 +436,10 @@ button {
 .box_link_footer a > svg {
   width: 30px;
 }
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
 /* style header page about _ Courses _ Blog _ Contact:*/
 .header_about_Courses_Blog_Contact {
   background-image: linear-gradient(
@@ -518,4 +460,109 @@ button {
 .title_header__about_Courses_Blog_Contact {
   font-weight: 900;
   font-size: 3.5rem;
+}
+/* Responsive home page*/
+@media screen and (max-width: 950px) {
+  .title_header_home {
+    font-size: 2.2rem;
+  }
+  .text_header_home {
+    font-size: 0.7rem;
+  }
+  .btn_header_home {
+    width: 170px;
+  }
+  .title_text_section_courses h3 {
+    font-size: 2rem;
+  }
+  .title_text_section_courses p {
+    font-size: 0.7rem;
+  }
+  .section--courses__page--home {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .cart_section_courses h5 {
+    font-size: 1rem;
+  }
+  .cart_section_courses p {
+    font-size: 0.7rem;
+    width: 90%;
+  }
+  .title_text_section_our_global h3 {
+    font-size: 2rem;
+  }
+  .title_text_section_our_global p {
+    font-size: 0.7rem;
+  }
+  .container_img_section_our_global {
+    width: 100%;
+  }
+  .container_img_section_our_global {
+    width: 100%;
+    padding: 0 1rem;
+    justify-content: space-between;
+  }
+  .box_img_section_our_global img {
+    height: 350px;
+  }
+  .Photo_overlay {
+    height: 350px;
+    line-height: 350px;
+  }
+  .title_text_section_Our_Facilities h3 {
+    font-size: 2rem;
+  }
+  .title_text_section_Our_Facilities p {
+    font-size: 0.7rem;
+  }
+  .section_Our_Facilities {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .box_cart_section_Our_Facilities img {
+    height: 250px;
+  }
+  .box_cart_section_Our_Facilities h5 {
+    font-size: 0.9rem;
+  }
+  .box_cart_section_Our_Facilities p {
+    font-size: 0.7rem;
+  }
+  .title_text_section_oue_student h2 {
+    font-size: 2rem;
+  }
+  .title_text_section_oue_student p {
+    font-size: 0.7rem;
+  }
+  .cart_user {
+    padding: 0.8rem;
+    gap: 0.5rem;
+    height: auto;
+  }
+  .box_img_user img {
+    width: 50px;
+    height: 50px;
+  }
+  .box_Specifications p {
+    font-size: 0.7rem;
+  }
+  .box_Specifications h6 {
+    font-size: 0.9rem;
+  }
+  .section_entroll {
+    padding: 0 1rem;
+  }
+  .box_entroll {
+    width: 100%;
+  }
+  .box_entroll h2 {
+    font-size: 1.9rem;
+  }
+  .text_footer {
+    font-size: 0.7rem;
+  }
+  .title_header__about_Courses_Blog_Contact {
+    font-size: 2rem;
+  }
 }
