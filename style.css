@@ -566,3 +566,121 @@ button {
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 700px) {
+  .box_links {
+    gap: 1rem;
+  }
+  .link {
+    font-size: 0.8rem;
+  }
+  .box_logo img {
+    width: 120px;
+  }
+  .title_header_home {
+    font-size: 1.8rem;
+  }
+  .btn_header_home {
+    width: 140px;
+    font-size: 0.7rem;
+  }
+  .btn_header_home::after {
+    right: -26px;
+  }
+  .btn_header_home::before {
+    left: -25px;
+  }
+  .section--courses__page--home {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  .box_cart_section_courses {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cart_section_courses {
+    width: 250px;
+    height: 160px;
+  }
+  .container_img_section_our_global {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box_img_section_our_global,
+  .Photo_overlay {
+    width: 300px;
+  }
+  .box_img_section_our_global img {
+    width: 100%;
+  }
+  .title_text_section_our_global h3,
+  .title_text_section_Our_Facilities h3,
+  .title_text_section_courses h3,
+  .title_text_section_oue_student h2,
+  .box_entroll h2,
+  .title_footer h2 {
+    font-size: 1.5rem;
+  }
+  .title_text_section_our_global p,
+  .title_text_section_courses p,
+  .text_header_home,
+  .title_text_section_oue_student p,
+  .text_footer {
+    font-size: 0.6rem;
+  }
+  .section_Our_Facilities,
+  .section_oue_student,
+  .section_our_global {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .container_cart_section_Our_Facilities,
+  .box_cart_user {
+    flex-wrap: wrap;
+  }
+  .box_cart_section_Our_Facilities {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .d_none {
+    display: none;
+  }
+  .d {
+    display: flex;
+  }
+  .header_home {
+    gap: 0.9rem;
+  }
+  .title_header_home {
+    font-size: 1.3rem;
+  }
+  .title_text_section_our_global h3,
+  .title_text_section_Our_Facilities h3,
+  .title_text_section_courses h3,
+  .title_text_section_oue_student h2,
+  .box_entroll h2,
+  .title_footer h2 {
+    font-size: 1.2rem;
+  }
+  .section--courses__page--home,
+  .section_oue_student {
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+  .cart_section_courses,
+  .box_img_section_our_global img,
+  .Photo_overlay,
+  .box_cart_section_Our_Facilities {
+    width: 100%;
+  }
+  .title_text_section_Our_Facilities p {
+    text-align: center;
+  }
+  .section_entroll,
+  .footer_page_home {
+    height: auto;
+    margin: 2rem 0;
+  }
+}

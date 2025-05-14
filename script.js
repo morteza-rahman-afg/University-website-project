@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           content.innerHTML = data; // گذاشتن محتوای جدید
           navbar.style.display = "flex"; // نمایش دوباره نوار منو
           navbar.classList.add("opacity");
+          Links_sidebar.classList.remove("transform_translateX--0");
         }, 700);
       })
       .catch((error) => {
